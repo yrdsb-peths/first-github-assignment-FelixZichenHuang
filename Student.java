@@ -1,11 +1,11 @@
 public class Student {
-  public String name;
+    public String name;
   
-  public Student() {
-    name = "Felix Huang";
-  }
+    public Student() {
+      name = "Felix Huang";
+    }
   
-  public String toString() {
-    return "My name is " + name;
-  }
+    public String toString() {
+      return "My name is " + name;
+    }
 }
