@@ -25,8 +25,7 @@ public class SortingAlgorithm {
             System.out.print(element + " ");
         }
         int[] sortedArray = sort(array);
-        System.out.println();
-        System.out.print("After Sorting: ");
+        System.out.print("\nAfter Sorting: ");
         for (int sortedElement : sortedArray) {
             System.out.print(sortedElement + " ");
         }
