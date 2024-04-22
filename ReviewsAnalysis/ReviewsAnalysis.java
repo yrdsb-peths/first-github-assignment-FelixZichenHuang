@@ -14,9 +14,8 @@ public class ReviewsAnalysis {
         }
         if (!reviews.isEmpty()) {
             return rate / reviews.size();
-        } else {
-            return 0;
         }
+        return 0;
     }
 
     public static String productQualityAnalysis() {
